@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">Gosple <span>Fashion & Designing</span></a>
+
+            <!--css-only hambuger></css-only -->
+            <input id="menu-toggle"class="menu-toggle" type="checkbox">
+            <label class="hambuger"for="menu-toggle" aria-label="toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span> 
+            </label>
+
+            <nav class="nav">
+                <ul>
+                    <li> <a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <h2>Style tailored just for you</h2>
+            <p>Custom fashion & expert tailoring - made to fit your story.</p>
+            <a class="btn" href="#contact">Book a fitting</a>
+        </div>
+    </section>
+    <section id="about" class="about container">
+        <h2>About Gosple Fashion House</h2>
+        <p>We design and tailor premium outfits for every occasion. from custom tailoring and bridal wear to quick alterations - we put craftmanship and style first.</p>
+    </section>
+    <section id="services" class="service container">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <article class="service-card">
+                <h3>Custom Tailoring</h3>
+                <p>Made-to-measure garments to match your silhoutte.</p>
+            </article>
+            <article class="service-card">
+                <h3>Fashion Design</h3>
+                <p>Original designs for events and everyday elegance.</p>
+            </article>
+            <article class="service-card">
+                <h3>Alterations</h3>
+                <p>Fast and precise adjustments for any garment.</p>
+            </article>
+            <article class="service-card">
+                <h3>Bridal & Events</h3>
+                <p>Show-shopping dresses crafted with attention to details.</p>
+            </article>
+        </div>
+    </section>
+    <section id="gallery" class="gallerycontainer">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <a href="IMG-20250901-WA0037.jpg" target="_blank"><img src="IMG-20250901-WA0037.jpg" alt="Custom evening dress"></a>
+            <a href="IMG-20250901-WA0040.jpg" target="_blank"><img src="IMG-20250901-WA0040.jpg" alt="bridal design"></a>
+            <a href="IMG-20250901-WA0038.jpg" target="_blank"><img src="IMG-20250901-WA0038.jpg" alt="tailored suit"></a>
+            <a href="IMG-20250901-WA0039.jpg" target="_blank"><img src="IMG-20250901-WA0039.jpg" alt="casual wear"></a>
+            <a href="IMG-20250901-WA0029.jpg" target="_blank"><img src="IMG-20250901-WA0029.jpg" alt="occasion wears"></a>
+        </div>
+    </section>
+    <section id="contact" class="contact container">
+        <h2>Contact Us</h2>
+
+        <p>Phone:  <a href="tel +2348024341194">+2348024341194</a></p>
+        <p>Email:  <a href="mailto:gospelchidera@gmail.com">gospelchidera@gmail.com</a></p>
+        <p>Whatsapp: <a href="https://wa.me/2348024341194" target="-blank">Message us on Whatsapp</a></p>
+
+        <form class="contact-form" action="mailto:gospelchidera@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="Message" rows="5" placeholder="Tell us about your order / event" required></textarea>
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
